@@ -24,7 +24,7 @@
 		<form class="form-signin" role="form" action="user/main" method="post">
 			<input type="text" class="form-control" placeholder="用户名" name="loginName" value="000001" required autofocus />
 			<input type="password" class="form-control" placeholder="密码" name="password" value="123456" />
-			<input class="btn btn-lg btn-warning btn-block" type="submit" value="登陆"></input>
+			<input 	class="btn btn-lg btn-warning btn-block" type="submit" value="登陆"></input>
 			<label class="control-label"><br>
 			<div id="flag" style="color:red">${message}</div></label>
 		</form>
