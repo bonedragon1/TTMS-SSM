@@ -5,8 +5,6 @@
 	http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
 	id="WebApp_ID" version="3.1">
 	
-	<!-- spring在service层和dao层如何获取request和session -->
-	<listener>
 		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
 	</listener>
 	
